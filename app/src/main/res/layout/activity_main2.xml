@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+<TimePicker
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/time"
+    />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btHen"
+        android:text="Dat gio"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@id/time"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/boHen"
+        android:text="Bo hen gio"
+        android:layout_below="@id/time"
+        android:layout_toRightOf="@id/btHen"
+        android:layout_marginHorizontal="100dp" />
+</RelativeLayout>
